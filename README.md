@@ -1,52 +1,64 @@
-🛒 Full Stack E-Commerce Website (MERN + Stripe + Razorpay)
-This is a Full Stack E-Commerce Website built using the MERN Stack (MongoDB, Express, React, Node.js) with integrated Stripe and Razorpay payment gateways.
+# 🛒 Full Stack E-Commerce Website (MERN + Stripe + Razorpay)
 
-The project includes a modern frontend UI, a secure backend API, and an Admin Dashboard for product and order management. It also supports user authentication, cart functionality, order tracking, and multiple payment methods (online & COD).
+![React](https://img.shields.io/badge/React-18.0-blue?logo=react) 
+![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js) 
+![Express](https://img.shields.io/badge/Express.js-Backend-black?logo=express) 
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)  
+![Stripe](https://img.shields.io/badge/Stripe-Payments-blue?logo=stripe) 
+![Razorpay](https://img.shields.io/badge/Razorpay-Payments-blue?logo=razorpay) 
+![License](https://img.shields.io/badge/License-MIT-orange)
 
-🚀 Features
-🌐 Frontend
-Built with React + Vite + Tailwind CSS
+---
 
-Fully responsive modern UI
+## 🚀 Overview  
 
-Product listing with filters, categories, and sorting
+This is a **Full Stack E-Commerce Website** built using the **MERN Stack (MongoDB, Express, React, Node.js)** with **Stripe & Razorpay payment gateways**.  
 
-Product detail pages with multiple images & variants (size, etc.)
+It includes:  
+✨ Modern **UI with Tailwind CSS**  
+✨ **Secure backend with JWT authentication**  
+✨ **Cart & Checkout system**  
+✨ **Admin dashboard** for managing products & orders  
 
-Shopping cart with add/update/remove functionality
+---
 
-Checkout with Address & Payment options
+## 🎨 Features  
 
-User authentication (Login / Signup)
+### 🌐 Frontend  
+✅ Product listing with filters & sorting  
+✅ Product details with image gallery & size options  
+✅ Fully responsive modern UI (Tailwind CSS)  
+✅ Shopping cart & checkout flow  
+✅ User Authentication (Signup / Login)  
+✅ My Orders page with tracking  
 
-My Orders page with order tracking
+### ⚙️ Backend  
+✅ Node.js + Express REST APIs  
+✅ MongoDB database with Mongoose  
+✅ JWT Authentication & user management  
+✅ Product management APIs  
+✅ Order management & tracking  
+✅ Stripe & Razorpay Payments integration  
 
-⚙️ Backend (API)
-Built with Node.js + Express.js
+### 👨‍💻 Admin Panel  
+✅ Secure Admin Login  
+✅ Add / Edit / Delete Products  
+✅ View and Update Order Status  
 
-MongoDB for database management
+---
 
-User Authentication (JWT-based)
+## 🛠️ Tech Stack  
 
-Product Management (CRUD APIs)
+| **Category**   | **Tech** |
+|----------------|----------|
+| Frontend       | React, Vite, Tailwind CSS, React Router |
+| Backend        | Node.js, Express.js |
+| Database       | MongoDB, Mongoose |
+| Authentication | JWT, bcrypt |
+| Payments       | Stripe, Razorpay |
+| Deployment     | Vercel (Frontend), Render/Heroku (Backend) |
 
-Order Management APIs
+---
 
-Payment Gateway Integration (Stripe + Razorpay)
+## ⚡ Installation  
 
-👨💻 Admin Panel
-Secure Admin Login
-
-Product Management (Add, Edit, Delete)
-
-Orders Management with status update (Placed, Out for Delivery, Delivered)
-
-Dashboard to monitor store data
-
-🛠️ Tech Stack
-Frontend : React, Vite, Tailwind CSS, React Router, React Toastify
-Backend : Node.js, Express.js
-Database : MongoDB (Mongoose)
-Authentication : JWT, bcrypt
-Payments : Stripe, Razorpay
-Deployment : Vercel (Frontend), Render/Heroku (Backend)
