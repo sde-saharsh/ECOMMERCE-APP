@@ -41,7 +41,6 @@ const Navbar = () => {
                 <p>Contact</p>
                 <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
             </NavLink>
-
         </ul>
 
         <div className='flex items-center gap-6'>
@@ -60,6 +59,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 }
+
             </div>
             <Link to='/cart' className='relative'>
                 <img src={assets.cart_icon} alt="" className='w-5 min-w-5'/>
