@@ -58,7 +58,3 @@ It includes:
 | Payments       | Stripe, Razorpay |
 | Deployment     | Vercel (Frontend), Render/Heroku (Backend) |
 
----
-
-## ⚡ Installation  
-
